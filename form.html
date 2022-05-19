@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h2>Sign Up Form</h2>
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Type your full name"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Your email"> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Choose a password"> <br>
+
+        <label for="phone">Phone No:</label>
+        <input type="text" name="phone" id="phone" placeholder="Enter contact number"> <br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob"> <br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender"> Male
+        <input type="radio" name="gender" id="gender"> Female <br>
+
+        <label for="course">Courses Completed</label>
+        <input type="checkbox" name="course" id="course"> Math 107
+        <input type="checkbox" name="course" id="course"> Eng 101
+        <input type="checkbox" name="course" id="course"> Art 277
+        <input type="checkbox" name="course" id="course"> Info 101 <br>
+
+        <label for="county">County of Origin</label>
+        <select name="county" id="county">
+            <option value="">Nimba</option>
+            <option value="">Grand Bassa</option>
+            <option value="">Bomi</option>
+            <option value="">Bong</option>
+        </select> <br>
+
+        <label for="comment">Any Comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea> <br>
+
+        <label for="photo">Profile Photo</label>
+        <input type="file" name="photo" id="photo">
+<br>
+        <input type="submit" value="Sign Up">
+
+    </form>
+</body>
+</html>
